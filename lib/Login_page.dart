@@ -65,6 +65,7 @@ class LoginPage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.circle, color: Colors.grey)),
             ),
+            //digunakan untuk mengatur agar box login dapat di atur di tengah
             Align(
               alignment: Alignment.bottomCenter,
               child: ListView(
